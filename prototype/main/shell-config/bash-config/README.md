@@ -6,7 +6,7 @@
 
 | Config File Path |
 | --- |
-| [~/.config/bash/bash.conf](./asset/overlay/etc/skel/.config/bash/bash.conf) |
+| [~/.bashrc](./asset/overlay/etc/skel/.bashrc) |
 
 
 ## Debian Package
@@ -16,6 +16,12 @@
 | [bash](https://packages.debian.org/stable/bash) |
 
 
+
+## Link
+
+| Link |
+| --- |
+| bashrc-enhance-prototype / [start](https://github.com/samwhelp/bashrc-enhance-prototype/tree/main/prototype/start/debian) |
 
 
 ## Usage
