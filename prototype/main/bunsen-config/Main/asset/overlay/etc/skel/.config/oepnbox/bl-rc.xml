@@ -195,19 +195,19 @@
     <chainQuitKey>C-g</chainQuitKey>
 
 
-	<!-- ## Reconfigure //-->
+    <!-- ## Reconfigure //-->
     <keybind key="A-S-c">
       <action name="Reconfigure" />
     </keybind>
 
 
-	<!-- ## Exit //-->
+    <!-- ## Exit //-->
     <keybind key="A-S-x">
       <action name="Execute">
         <command>bl-exit</command>
-	  </action>
+      </action>
     </keybind>
-	
+
     <keybind key="A-C-x">
       <action name="Exit" />
     </keybind>
@@ -217,40 +217,40 @@
     </keybind>
 
 
-	<!-- ## Lock Screen //-->   
+    <!-- ## Lock Screen //-->
     <keybind key="A-S-z">
       <action name="Execute">
         <command>bl-exit</command>
-	  </action>
+      </action>
     </keybind>
 
     <keybind key="A-C-z">
       <action name="Execute">
         <command>bl-lock</command>
-	  </action>
+      </action>
     </keybind>
 
 
-	<!-- ## Terminal //-->
-	<keybind key="A-Return">
-		<action name="Execute">
-			<startupnotify>
-				<enabled>true</enabled>
-				<name>Terminal</name>
-			</startupnotify>
-			<command>x-terminal-emulator</command>
-		</action>
-	</keybind>
+    <!-- ## Terminal //-->
+    <keybind key="A-Return">
+        <action name="Execute">
+            <startupnotify>
+                <enabled>true</enabled>
+                <name>Terminal</name>
+            </startupnotify>
+            <command>x-terminal-emulator</command>
+        </action>
+    </keybind>
 
-	<keybind key="A-S-a">
-		<action name="Execute">
-			<startupnotify>
-				<enabled>true</enabled>
-				<name>Terminal</name>
-			</startupnotify>
-			<command>x-terminal-emulator</command>
-		</action>
-	</keybind>    
+    <keybind key="A-S-a">
+        <action name="Execute">
+            <startupnotify>
+                <enabled>true</enabled>
+                <name>Terminal</name>
+            </startupnotify>
+            <command>x-terminal-emulator</command>
+        </action>
+    </keybind>
 
 
 
@@ -305,8 +305,8 @@
     </keybind>
     <keybind key="F11">
       <action name="ToggleFullscreen"/>
-	</keybind>
- 
+    </keybind>
+
     <!-- Keybindings for windows -->      
     <keybind key="A-F4">
       <action name="Close"/>
@@ -339,7 +339,7 @@
         </finalactions>
       </action>
     </keybind>
-    
+
     <keybind key="W-s">
       <action name="NextWindow">
         <finalactions>
@@ -355,7 +355,7 @@
     <keybind key="A-a">
       <action name="GoToDesktop"><to>previous</to></action>
     </keybind>
-    
+
     <keybind key="A-s">
       <action name="GoToDesktop"><to>next</to></action>
     </keybind>
