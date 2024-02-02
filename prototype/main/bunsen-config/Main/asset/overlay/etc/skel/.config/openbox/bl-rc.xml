@@ -667,12 +667,12 @@
 
     <context name="Titlebar">
 
-      <!--
+
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
       </mousebind>
-      //-->
+
 
       <!--
       <mousebind button="Left" action="Drag">
