@@ -10,7 +10,7 @@ kill ${XEPHYR_PID}
 
 
 ################################################################################
-###
+### Head: Note
 ##
 
 
@@ -24,6 +24,18 @@ kill ${XEPHYR_PID}
 ## ## Reference
 ## * https://wiki.archlinux.org/index.php/Xephyr
 ##
+
+
+##
+## ## Install xserver-xephyr
+##
+## run
+##
+## ``` sh
+## sudo apt-get install xserver-xephyr
+## ```
+##
+
 
 ##
 ## ## Openbox xsession
@@ -43,5 +55,16 @@ kill ${XEPHYR_PID}
 
 
 ##
-###
+## ## Display resolution
+##
+## run
+##
+## ``` sh
+## xrandr
+## ```
+##
+
+
+##
+### Tail: Note
 ################################################################################
