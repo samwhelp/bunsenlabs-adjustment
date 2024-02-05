@@ -49,6 +49,9 @@
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
+        <!--
+        <action name="Unshade"/>
+        //-->
       </mousebind>
     </context>
   </mouse>
