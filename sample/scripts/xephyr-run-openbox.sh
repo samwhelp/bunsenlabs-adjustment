@@ -38,6 +38,18 @@ kill ${XEPHYR_PID}
 
 
 ##
+## ## Install this script
+##
+## run
+##
+## ``` sh
+## mkdir -p /.local/bin
+## cp xephyr-run-openbox.sh ~/.local/bin/
+## ```
+##
+
+
+##
 ## ## Openbox xsession
 ##
 ## run
