@@ -3,26 +3,56 @@
 # Openbox
 
 
-## Config File Path
-
-| Config File Path |
-| --- |
-| [~/.config/openbox/rc.xml](./asset/overlay/etc/skel/.config/openbox/rc.xml) |
-| [~/.config/openbox/menu.xml](./asset/overlay/etc/skel/.config/openbox/menu.xml) |
-| [~/.config/openbox/environment](./asset/overlay/etc/skel/.config/openbox/environment) |
-| [~/.config/openbox/autostart](./asset/overlay/etc/skel/.config/openbox/autostart) |
-
-
-> from `/etc/xdg/openbox/`
-
-> from `debian 12 bookworm`
-
-
 ## Debian Package
 
 | Debian Package |
 | --- |
 | [openbox](https://packages.debian.org/stable/openbox) |
+
+
+## Config File Path
+
+| Config File Path |
+| --- |
+| [~/.config/openbox/rc.xml](./asset/overlay/etc/skel/.config/openbox/rc.xml) |
+
+
+## Adjustment / Mousebind
+
+> Drag window to move, keep shaded, when window shaded.
+
+
+### Orginal / Context: `Titlebar Top Right Bottom Left TLCorner TRCorner BRCorner BLCorner`
+
+* [Config Snippet](../../openbox-config-orginal/openbox-config/asset/overlay/etc/skel/.config/openbox/rc.xml#L412-L416)
+
+``` xml
+  <mouse>
+    <context name="Titlebar Top Right Bottom Left TLCorner TRCorner BRCorner BLCorner">
+      <mousebind button="Left" action="Press">
+        <action name="Focus"/>
+        <action name="Raise"/>
+        <action name="Unshade"/>
+      </mousebind>
+    </context>
+  </mouse>
+```
+
+
+### Adjusted / Context: `Titlebar Top Right Bottom Left TLCorner TRCorner BRCorner BLCorner`
+
+* [Config Snippet](./asset/overlay/etc/skel/.config/openbox/rc.xml#L412-L418)
+
+``` xml
+  <mouse>
+    <context name="Titlebar Top Right Bottom Left TLCorner TRCorner BRCorner BLCorner">
+      <mousebind button="Left" action="Press">
+        <action name="Focus"/>
+        <action name="Raise"/>
+      </mousebind>
+    </context>
+  </mouse>
+```
 
 
 
