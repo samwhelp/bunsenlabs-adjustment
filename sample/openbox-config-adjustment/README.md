@@ -11,4 +11,8 @@
 | [mouse_middle_scroll_on_titlebar_keep_focus_when_window_shading](./mouse_middle_scroll_on_titlebar_keep_focus_when_window_shading) | |
 
 
+## Combine
 
+| Demo | Note |
+| ---- | ---- |
+| [combine-all](./combine-all) | |
