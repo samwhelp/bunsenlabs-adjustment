@@ -1,6 +1,6 @@
 ---
 title: Mousebind
-nav_order: 2000
+nav_order: 3000
 has_children: false
 parent: Config
 ---
