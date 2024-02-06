@@ -2,10 +2,10 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/user/.gtkrc-2.0.mine"
-gtk-theme-name="Boron-aqua"
-gtk-icon-theme-name="Numix-Bunsen-Circle-aqua"
-gtk-font-name="Sans 10"
-gtk-cursor-theme-name="DMZ-White"
+gtk-theme-name="Boron-light-aqua"
+gtk-icon-theme-name="Numix-Bunsen-Circle-aqua-Light"
+gtk-font-name="Sans 11"
+gtk-cursor-theme-name="DMZ-Black"
 gtk-cursor-theme-size=0
 gtk-toolbar-style=GTK_TOOLBAR_ICONS
 gtk-toolbar-icon-size=GTK_ICON_SIZE_SMALL_TOOLBAR
