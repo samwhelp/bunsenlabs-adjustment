@@ -71,3 +71,16 @@ parent: Config
 | ----------------- | ------------ | ------------------- |
 | `Alt + a`         | Switch to Previous Workspace    | `GoToDesktop Previous`        |
 | `Alt + s`         | Switch to Next Workspace    | `GoToDesktop Next`             |
+
+
+
+
+
+## Window / Tiling
+
+| Keybind           | Action       | Command             |
+| ----------------- | ------------ | ------------------- |
+| `Win + Up`         | Put Window to North Side   | `Move`        |
+| `Win + Down`         | Put Window to South Side    | `Move`             |
+| `Win + Left`         | Put Window to West Side   | `Move`        |
+| `Win + Right`         | Put Window to East Side    | `Move`             |
