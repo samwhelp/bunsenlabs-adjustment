@@ -727,7 +727,9 @@
           <shaded>yes</shaded>
           <then>
             <action name="Unshade"/>
+            <!--
             <action name="Raise"/>
+            //-->
           </then>
         </action>
       </mousebind>

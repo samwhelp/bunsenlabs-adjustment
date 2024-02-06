@@ -16,6 +16,8 @@ bunsen_config_install () {
 	echo
 
 
+	bunsen_config_install_check
+
 	bunsen_config_install_by_dir
 
 	#bunsen_config_install_by_each_file
@@ -23,6 +25,19 @@ bunsen_config_install () {
 
 	echo
 
+}
+
+bunsen_config_install_check () {
+
+	local autostart_file_path="${HOME}/.config/bunsen/autostart"
+	
+	if  [ -L "${autostart_file_path}" ]; then
+		echo
+		echo rm -f "${autostart_file_path}"
+		rm -f "${autostart_file_path}"
+	fi
+
+	return 0
 }
 
 bunsen_config_install_by_dir () {
