@@ -36,3 +36,28 @@ parent: Config
 | ----------------- | ------------ | ------------------- |
 | `Alt + F1`        | Root Menu    | `jgmenu_run`        |
 | `Alt + F2`        | Run Dialog   | `gmrun`             |
+
+
+
+
+## Window
+
+| Keybind           | Action       | Command             |
+| ----------------- | ------------ | ------------------- |
+| `Alt + q`         | Window Close    | `Close`        |
+| `Alt + w`         | Window ToggleMaximize   | `ToggleMaximize`             |
+
+| Keybind           | Action       | Command             |
+| ----------------- | ------------ | ------------------- |
+| `Alt + F4`         | Window Close    | `Close`        |
+| `Alt + F6`         | Window ToggleMaximize   | `ToggleMaximize`             |
+
+
+
+
+## Window / Switch
+
+| Keybind           | Action       | Command             |
+| ----------------- | ------------ | ------------------- |
+| `Alt + a`         | Switch to Previous Window    | `PreviousWindow`        |
+| `Alt + s`         | Switch to Next Window    | `NextWindow`             |
