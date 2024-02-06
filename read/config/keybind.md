@@ -24,5 +24,15 @@ parent: Config
 
 | Keybind           | Action       | Command             |
 | ----------------- | ------------ | ------------------- |
-| `Alt + Shift + c` | Reconfigure | `Reconfigure` |
-| `Alt + Shift + x` | Exit | `Exit` |
+| `Alt + Shift + c` | Reconfigure  | `Reconfigure`       |
+| `Alt + Shift + x` | Exit         | `Exit`              |
+
+
+
+
+## Menu
+
+| Keybind           | Action       | Command             |
+| ----------------- | ------------ | ------------------- |
+| `Alt + F1`        | Root Menu    | `jgmenu_run`        |
+| `Alt + F2`        | Run Dialog   | `gmrun`             |
