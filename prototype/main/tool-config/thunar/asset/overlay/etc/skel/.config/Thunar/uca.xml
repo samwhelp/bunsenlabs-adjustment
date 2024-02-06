@@ -5,7 +5,7 @@
 		<name>Terminal</name>
 		<unique-id>Action_Terminal-010</unique-id>
 		<!--<command>exo-open --working-directory %f --launch TerminalEmulator</command>//-->
-		<command>x-terminal-emulator --working-directory %F</command>
+		<command>x-terminal-emulator --working-directory %f</command>
 		<description></description>
 		<patterns>*</patterns>
 		<directories/>
