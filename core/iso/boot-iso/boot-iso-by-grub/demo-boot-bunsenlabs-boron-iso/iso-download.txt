@@ -1,0 +1,2 @@
+https://ddl.bunsenlabs.org/ddl/release.sha256.txt
+https://ddl.bunsenlabs.org/ddl/boron-1-240123-amd64.hybrid.iso
