@@ -85,3 +85,13 @@ parent: Config
 | `Win + Down`         | Put Window to South Side    | `Move`             |
 | `Win + Left`         | Put Window to West Side   | `Move`        |
 | `Win + Right`         | Put Window to East Side    | `Move`             |
+
+
+
+
+## Application
+
+| Keybind           | Action       | Command             |
+| ----------------- | ------------ | ------------------- |
+| |  |  |
+
