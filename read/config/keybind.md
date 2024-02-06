@@ -61,3 +61,13 @@ parent: Config
 | ----------------- | ------------ | ------------------- |
 | `Win + a`         | Switch to Previous Window    | `PreviousWindow`        |
 | `Win + s`         | Switch to Next Window    | `NextWindow`             |
+
+
+
+
+## Workspace / Switch
+
+| Keybind           | Action       | Command             |
+| ----------------- | ------------ | ------------------- |
+| `Alt + a`         | Switch to Previous Workspace    | `GoToDesktop Previous`        |
+| `Alt + s`         | Switch to Next Workspace    | `GoToDesktop Next`             |
