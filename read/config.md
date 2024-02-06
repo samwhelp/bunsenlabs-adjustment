@@ -8,6 +8,13 @@ has_children: true
 # Config
 
 
+## Adjustment
+
+| Adjustment |
+| ---------- |
+| [Boron](https://github.com/samwhelp/bunsenlabs-adjustment/tree/main/prototype/main/bunsen-config/Main) |
+
+
 ## Keybind
 
 | Keybind |
