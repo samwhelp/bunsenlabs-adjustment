@@ -44,8 +44,8 @@ parent: Config
 
 | Keybind           | Action       | Command             |
 | ----------------- | ------------ | ------------------- |
-| `Alt + q`         | Window Close    | `Close`        |
-| `Alt + w`         | Window ToggleMaximize   | `ToggleMaximize`             |
+| `Win + q`         | Window Close    | `Close`        |
+| `Win + w`         | Window ToggleMaximize   | `ToggleMaximize`             |
 
 | Keybind           | Action       | Command             |
 | ----------------- | ------------ | ------------------- |
@@ -59,5 +59,5 @@ parent: Config
 
 | Keybind           | Action       | Command             |
 | ----------------- | ------------ | ------------------- |
-| `Alt + a`         | Switch to Previous Window    | `PreviousWindow`        |
-| `Alt + s`         | Switch to Next Window    | `NextWindow`             |
+| `Win + a`         | Switch to Previous Window    | `PreviousWindow`        |
+| `Win + s`         | Switch to Next Window    | `NextWindow`             |
