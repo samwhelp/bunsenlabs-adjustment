@@ -25,7 +25,8 @@ parent: Config
 | Keybind           | Action       | Command             |
 | ----------------- | ------------ | ------------------- |
 | `Alt + Shift + c` | Reconfigure  | `Reconfigure`       |
-| `Alt + Shift + x` | Exit         | `Exit`              |
+| `Alt + Shift + x` | Exit Dialog  | `bl-exit`           |
+| `Alt + Ctrl + x`  | Openbox Exit | `Exit`              |
 
 
 
