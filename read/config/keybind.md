@@ -65,6 +65,11 @@ parent: Config
 | `Win + s`         | Switch to Next Window      | `NextWindow`      |
 
 
+| Keybind           | Action                     | Command           |
+| ----------------- | -------------------------- | ----------------- |
+| `Alt + Tab`       | Switch to Next Window      | `NextWindow`      |
+
+
 
 
 ## Workspace / Switch
