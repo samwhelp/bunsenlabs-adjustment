@@ -629,6 +629,12 @@
       </mousebind>
       //-->
 
+      <mousebind button="A-Middle" action="Press">
+        <action name="Lower"/>
+        <action name="FocusToBottom"/>
+          <action name="Unfocus"/>
+      </mousebind>
+
 
 
 
