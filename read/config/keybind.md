@@ -79,19 +79,43 @@ parent: Config
 
 ## Window / Tiling
 
-| Keybind           | Action       | Command             |
-| ----------------- | ------------ | ------------------- |
-| `Win + Up`         | Put Window to North Side   | `Move`        |
-| `Win + Down`         | Put Window to South Side    | `Move`             |
-| `Win + Left`         | Put Window to West Side   | `Move`        |
-| `Win + Right`         | Put Window to East Side    | `Move`             |
+| Keybind           | Action                    | Command       |
+| ----------------- | ------------------------- | ------------- |
+| `Win + Up`        | Put Window to North Side  | `Move`        |
+| `Win + Down`      | Put Window to South Side  | `Move`        |
+| `Win + Left`      | Put Window to West Side   | `Move`        |
+| `Win + Right`     | Put Window to East Side   | `Move`        |
 
 
 
 
 ## Application
 
-| Keybind           | Action       | Command             |
-| ----------------- | ------------ | ------------------- |
-| |  |  |
+| Keybind           | Action       | Command             | Mediator              |
+| ----------------- | ------------ | ------------------- | --------------------- |
+| `Alt + Enter`     | Terminal     | `lxterminal`        | `x-terminal-emulator` |
+| `Alt + Shitf + a` | Terminal     | `lxterminal`        | `x-terminal-emulator` |
+
+
+| Keybind           | Action       | Command             | Mediator              |
+| ----------------- | ------------ | ------------------- | --------------------- |
+| `Win + f`         | File Manager | `thunar`            | `bl-file-manager`     |
+| `Win + b`         | Web Browser  | `firefox`           | `x-www-browser`       |
+| `Win + e`         | Text Editor  | `geany`             | `bl-text-editor`      |
+| `Win + t`         | Terminal     | `lxterminal`        | `x-terminal-emulator` |
+
+
+| Keybind           | Action         | Command             | Mediator              |
+| ----------------- | -------------- | ------------------- | --------------------- |
+| `Win + m`         | Media Player   | `vlc`               | `bl-media-player`     |
+| `Win + v`         | Volume Control | `pavucontrol`       |                       |
+| `Win + h`         | Task Manager   | `htop`              |                       |
+
+
+| Keybind           | Action       | Command               |
+| ----------------- | ------------ | --------------------- |
+| `Win + l`         | Lock Screen  | `bl-lock`             |
+| `Win + x`         | Logout       | `bl-exit`             |
+| `PrtSc`           | Screenshot   | `xfce4-screenshooter` |
+
 
