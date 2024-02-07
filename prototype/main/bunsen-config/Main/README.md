@@ -9,6 +9,7 @@
 | --- |
 | [~/.config/openbox/bl-rc.xml](./asset/overlay/etc/skel/.config/openbox/bl-rc.xml) |
 | [~/.xbindkeysrc](./asset/overlay/etc/skel/.xbindkeysrc) |
+| [~/.config/bensun/autostart](./asset/overlay/etc/skel/.config/bensun/autostart) |
 
 
 ## Debian Package
