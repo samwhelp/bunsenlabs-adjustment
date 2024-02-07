@@ -43,35 +43,36 @@ parent: Config
 
 ## Window
 
-| Keybind           | Action       | Command             |
-| ----------------- | ------------ | ------------------- |
-| `Win + q`         | Window Close    | `Close`        |
-| `Win + w`         | Window ToggleMaximize   | `ToggleMaximize`             |
+| Keybind           | Action                 | Command           |
+| ----------------- | ---------------------- | ----------------- |
+| `Win + q`         | Window Close           | `Close`           |
+| `Win + w`         | Window ToggleMaximize  | `ToggleMaximize`  |
 
-| Keybind           | Action       | Command             |
-| ----------------- | ------------ | ------------------- |
-| `Alt + F4`         | Window Close    | `Close`        |
-| `Alt + F6`         | Window ToggleMaximize   | `ToggleMaximize`             |
+
+| Keybind           | Action                 | Command           |
+| ----------------- | ---------------------- | ----------------- |
+| `Alt + F4`        | Window Close           | `Close`           |
+| `Alt + F6`        | Window ToggleMaximize  | `ToggleMaximize`  |
 
 
 
 
 ## Window / Switch
 
-| Keybind           | Action       | Command             |
-| ----------------- | ------------ | ------------------- |
-| `Win + a`         | Switch to Previous Window    | `PreviousWindow`        |
-| `Win + s`         | Switch to Next Window    | `NextWindow`             |
+| Keybind           | Action                     | Command           |
+| ----------------- | -------------------------- | ----------------- |
+| `Win + a`         | Switch to Previous Window  | `PreviousWindow`  |
+| `Win + s`         | Switch to Next Window      | `NextWindow`      |
 
 
 
 
 ## Workspace / Switch
 
-| Keybind           | Action       | Command             |
-| ----------------- | ------------ | ------------------- |
-| `Alt + a`         | Switch to Previous Workspace    | `GoToDesktop Previous`        |
-| `Alt + s`         | Switch to Next Workspace    | `GoToDesktop Next`             |
+| Keybind           | Action                        | Command                 |
+| ----------------- | ----------------------------- | ----------------------- |
+| `Alt + a`         | Switch to Previous Workspace  | `GoToDesktop Previous`  |
+| `Alt + s`         | Switch to Next Workspace      | `GoToDesktop Next`      |
 
 
 
