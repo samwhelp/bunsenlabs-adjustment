@@ -123,5 +123,3 @@ parent: Config
 | `Win + l`         | Lock Screen  | `bl-lock`             |
 | `Win + x`         | Logout       | `bl-exit`             |
 | `PrtSc`           | Screenshot   | `xfce4-screenshooter` |
-
-
