@@ -9,7 +9,7 @@
 | --- |
 | [~/.config/openbox/bl-rc.xml](./asset/overlay/etc/skel/.config/openbox/bl-rc.xml) |
 | [~/.xbindkeysrc](./asset/overlay/etc/skel/.xbindkeysrc) |
-| [~/.config/bunsen/autostart](./asset/overlay/etc/skel/.config/bunsen/autostart) |
+| [~/.config/bunsen/autostart](./asset/overlay/etc/skel/.config/bunsen/autostart#L89-L91) |
 
 
 ## Debian Package
