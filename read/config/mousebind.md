@@ -20,7 +20,12 @@ parent: Config
 
 ## Window Frame
 
-| Mousebind                   | Action               | Command             |
-| --------------------------- | -------------------- | ------------------- |
-| `Win + Mouse Left Button`   | Drag Window Move     | `Move`              |
-| `Win + Mouse Right Button`  | Drag Window Rresize  | `Resize`            |
+| Mousebind                          | Action               | Command             |
+| -----------------------------------| -------------------- | ------------------- |
+| `Win + Mouse Left Button Drag`     | Window Move          | `Move`              |
+| `Win + Mouse Right Button Drag`    | Window Rresize       | `Resize`            |
+
+
+| Mousebind                          | Action               | Command             |
+| ---------------------------------- | -------------------- | ------------------- |
+| `Win + Mouse Middle Button Click`  | Show Client Menu     | `client-menu`       |
